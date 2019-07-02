@@ -1,0 +1,24 @@
+::selection {
+
+	background: #8e44ad;
+	color: #fff;
+}
+
+::-moz-selection {
+	background: #8e44ad;
+	color: #fff;
+}
+
+/* Sidebar */
+#sidebar.nav-collapse {
+	background-color: #2d3436;
+}
+
+ul.sidebar-menu span {
+	color: white;
+}
+
+a.logo span {
+	font-weight: 900;
+	color: #8e44ad;
+}

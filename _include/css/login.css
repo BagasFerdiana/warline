@@ -1,0 +1,66 @@
+::selection {
+
+	background: #8e44ad;
+	color: #fff;
+}
+
+::-moz-selection {
+	background: #8e44ad;
+	color: #fff;
+}
+
+/* ==============
+  Login Pages
+===================*/
+/* Import fonts */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
+/* form sign */
+.lock-screen {
+	background-color: #8e44ad;
+	display: block;
+	font-family: sans-serif;
+}
+
+.lock-screen h1 {
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.lock-box {
+	background-color: #b087c2;
+	border-radius: 10px;
+	box-shadow: 6px 6px 10px #af6bcc,
+		-6px -6px 10px #af6bcc,
+		0px 80px 7px -60px #af6bcc;
+	transition: 0.255s;
+}
+
+.lock-box:hover {
+	box-shadow: 6px 6px 10px #af6bcc,
+		-6px -6px 10px #af6bcc,
+		0 120px 7px -80px #af6bcc;
+	;
+	margin-top: 40px;
+}
+
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+	border: 0;
+	border-radius: 5px;
+	text-align: center;
+	outline: none;
+}
+
+.form-signin .tombol {
+	border: 0;
+	outline: none;
+	background-color: #ff4866;
+	transition: 0.255;
+}
+
+.form-signin .tombol:hover {
+	border: 0;
+	outline: none;
+	background-color: #70154a;
+}
